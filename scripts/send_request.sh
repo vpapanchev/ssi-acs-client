@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# todo - configure: URL of the SSI-ACS - DID Communication API
 server_url=http://localhost:5001/did_comm/inbox/
-server_did=did:peer:2.Ez6LSjvd7sLwMjrXboNTyF6oeRu4DY4H6T8YfSx66AEu1qLST.Vz6MkjXvCefatD8Vm5bA37XVDf1MsWBYAL8jhVqaFY1nQG9xe.SeyJpZCI6IjNmYzc5N2MyLWY1NGYtNDU4YS04NGQwLWQ2YTk0YzgxZDFmNyIsInQiOiJkbSIsInMiOiJodHRwOi8vaG9zdC5kb2NrZXIuaW50ZXJuYWw6NTAwMS9kaWRfY29tbS9pbmJveC8iLCJhIjpbImRpZGNvbW0vdjIiXX0
+# todo - configure: Peer DID of the SSI-ACS - DID Communication API
+server_did=
 
 BASEDIR=$(pwd)
 

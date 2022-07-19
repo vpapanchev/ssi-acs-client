@@ -1,12 +1,13 @@
 #!/bin/bash
 
-server_did=did:peer:2.Ez6LSoRRnpXTYiRHZtfDZCLqmekU8nKNspE5EweupxWkKsQQn.Vz6MkwQH28cbN1t9LwHNsDmkEbAGo6Zp8MSpY2cyjDaSQfiMz.SeyJpZCI6IjA4MzUxMTMxLTdjZDUtNDgyYi04ZGQzLTgzZjI5NzhmMDk3ZiIsInQiOiJkbSIsInMiOiJodHRwOi8vaG9zdC5kb2NrZXIuaW50ZXJuYWw6NTAwMS9kaWRfY29tbS9pbmJveC8iLCJhIjpbImRpZGNvbW0vdjIiXX0
+# todo - configure: URL of the SSI-ACS - DID Communication API
+server_url=http://localhost:5001/did_comm/inbox/
+# todo - configure: Peer DID of the SSI-ACS - DID Communication API
+server_did=
 
 EPOCHS=2
 
 BASEDIR=$(pwd)
-
-server_url=http://localhost:5001/did_comm/inbox/
 
 r1=http://aifb.example.org/degree_science/resources/r1
 r2=http://aifb.example.org/degree_arts/resources/r1

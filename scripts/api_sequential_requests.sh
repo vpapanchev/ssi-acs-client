@@ -1,8 +1,11 @@
 #!/bin/bash
 
 EPOCHS=2 # How many epochs to run
+
+# todo - configure: URL of the SSI-ACS - DID Communication API
 server_url=http://localhost:5001/did_comm/inbox/
-server_did=did:peer:2.Ez6LSbtGaSqNJiDz8VyPQ2VcKjYrP6Z1zgLP9QvQtWpJgM5hd.Vz6MkqL8CQi6hKCGZCHohs4RESySGo32z8jgR7UaYNmYLN74w.SeyJpZCI6IjlhNzU2ZmM1LTUzNmUtNDcwZC1iNjZhLWFkMzU3ZDgwNmJhNiIsInQiOiJkbSIsInMiOiJodHRwOi8vaG9zdC5kb2NrZXIuaW50ZXJuYWw6NTAwMS9kaWRfY29tbS9pbmJveC8iLCJhIjpbImRpZGNvbW0vdjIiXX0
+# todo - configure: Peer DID of the SSI-ACS - DID Communication API
+server_did=
 
 BASEDIR=$(pwd)
 

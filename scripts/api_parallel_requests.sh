@@ -2,8 +2,11 @@
 
 REPEAT=1 # How many times to repeat running all the EPOCHS
 EPOCHS=1 # 1 Epoch = 10 Requests in parallel
+
+# todo - configure: URL of the SSI-ACS - DID Communication API
 server_url=http://localhost:5001/did_comm/inbox/
-server_did=did:peer:2.Ez6LSnB339djkyoyGUGE9tzDZwFXEZz55teZyo7TUEcB8AffH.Vz6MkhRQsWhLPcG7d9EvPiDwAHa6PqePjbCeMiewxtZ5hGmPW.SeyJpZCI6IjJmYTAzYzc5LTg2OTMtNDNkNy1hMDhkLWFhZDJjM2Q3ZTM2ZiIsInQiOiJkbSIsInMiOiJodHRwOi8vMS4xLjEuMTo1MDAxL2RpZF9jb21tL2luYm94LyIsImEiOlsiZGlkY29tbS92MiJdfQ
+# todo - configure: Peer DID of the SSI-ACS - DID Communication API
+server_did=
 
 BASEDIR=$(pwd)
 
