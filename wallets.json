@@ -1,0 +1,354 @@
+{
+  "1": {
+    "holder_did": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57",
+    "holder_signing_key": "4WecivdpzGjWh8KNtjCZ1SuPG4XuRRCFAKEaPHq9iuof6zaPHwsWATcQxHYi76fZ9vTb2tE4mTcAKmyQCgXJshFa",
+    "holder_verify_key_id": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57#delegate-1",
+    "credentials": [
+      {
+        "name": "Degree Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMjVkMDkxOTAyZTQ2ODc1NTY5NGIxMzIzZGQ2M2RhNTJkMDUyMzgzODRmMGJmOTNiMGUzMGY2ZGM1YmM2NDFkNyNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzI1ZDA5MTkwMmU0Njg3NTU2OTRiMTMyM2RkNjNkYTUyZDA1MjM4Mzg0ZjBiZjkzYjBlMzBmNmRjNWJjNjQxZDciLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjExMTExMTExMSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy9leGFtcGxlcy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVW5pdmVyc2l0eURlZ3JlZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlIjp7InR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIn19fSwibmJmIjoxNjUyNDU5NjYzLjMzOTE0NCwiZXhwIjoxNjY4MzYwODYzLjMzOTE0OX0.ot2dLANA3VP18g0osdyiv7oVX9JymwLddfU9TdA7n-MDcH07-eeX2y_8Jxs6WViatubRuVOoQ6NqDGwKVP5jBQ",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "UniversityDegreeCredential"
+          ],
+          "credentialSubject": {
+            "degree": {
+              "type": "BachelorDegree",
+              "name": "Bachelor of Science"
+            },
+            "id": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57"
+          },
+          "expirationDate": "2022-11-13T18:34:23.339149",
+          "issuer": "did:ethr:0x3:0x0325d091902e468755694b1323dd63da52d05238384f0bf93b0e30f6dc5bc641d7",
+          "issuanceDate": "2022-05-13T18:34:23.339144",
+          "id": 111111111,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMjVkMDkxOTAyZTQ2ODc1NTY5NGIxMzIzZGQ2M2RhNTJkMDUyMzgzODRmMGJmOTNiMGUzMGY2ZGM1YmM2NDFkNyNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzI1ZDA5MTkwMmU0Njg3NTU2OTRiMTMyM2RkNjNkYTUyZDA1MjM4Mzg0ZjBiZjkzYjBlMzBmNmRjNWJjNjQxZDciLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjExMTExMTExMSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy9leGFtcGxlcy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVW5pdmVyc2l0eURlZ3JlZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlIjp7InR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIn19fSwibmJmIjoxNjUyNDU5NjYzLjMzOTE0NCwiZXhwIjoxNjY4MzYwODYzLjMzOTE0OX0.ot2dLANA3VP18g0osdyiv7oVX9JymwLddfU9TdA7n-MDcH07-eeX2y_8Jxs6WViatubRuVOoQ6NqDGwKVP5jBQ"
+          }
+        }
+      },
+      {
+        "name": "Resident Card Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzNjFjMGMyMGViOGExZDRhYjY1OWZhYTIxOGEyM2I5M2JmNTlmMGI0ZWVkNGQxZDNjZDkyOWFmM2JhOTc3ZjJjNiNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzYxYzBjMjBlYjhhMWQ0YWI2NTlmYWEyMThhMjNiOTNiZjU5ZjBiNGVlZDRkMWQzY2Q5MjlhZjNiYTk3N2YyYzYiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjIyMjIyMjIyMiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL2NpdGl6ZW5zaGlwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJQZXJtYW5lbnRSZXNpZGVudENhcmQiXSwibmFtZSI6IlBlcm1hbmVudCBSZXNpZGVudCBDYXJkIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6WyJQZXJtYW5lbnRSZXNpZGVudCIsIlBlcnNvbiJdLCJnaXZlbk5hbWUiOiJWYXNpbCIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXYiLCJnZW5kZXIiOiJNYWxlIiwicmVzaWRlbnRTaW5jZSI6IjE5OTctMDEtMDEiLCJiaXJ0aENvdW50cnkiOiJCdWxnYXJpYSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifX0sIm5iZiI6MTY1MjQ1OTY2My4zMzk2NiwiZXhwIjoxNjY4MzYwODYzLjMzOTY2Mn0.xsdvBo2QuDkgC8-tVNms6myubwOd349dy1B2hnVb4bW1dX5fv3D6NaulcBMxmrDb0Sc633iyBQ-Zb8HoaqN9AA",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/citizenship/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "PermanentResidentCard"
+          ],
+          "name": "Permanent Resident Card",
+          "credentialSubject": {
+            "type": [
+              "PermanentResident",
+              "Person"
+            ],
+            "givenName": "Vasil",
+            "familyName": "Papanchev",
+            "gender": "Male",
+            "residentSince": "1997-01-01",
+            "birthCountry": "Bulgaria",
+            "birthDate": "1997-01-01",
+            "id": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57"
+          },
+          "expirationDate": "2022-11-13T18:34:23.339662",
+          "issuer": "did:ethr:0x3:0x0361c0c20eb8a1d4ab659faa218a23b93bf59f0b4eed4d1d3cd929af3ba977f2c6",
+          "issuanceDate": "2022-05-13T18:34:23.339660",
+          "id": 222222222,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzNjFjMGMyMGViOGExZDRhYjY1OWZhYTIxOGEyM2I5M2JmNTlmMGI0ZWVkNGQxZDNjZDkyOWFmM2JhOTc3ZjJjNiNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzYxYzBjMjBlYjhhMWQ0YWI2NTlmYWEyMThhMjNiOTNiZjU5ZjBiNGVlZDRkMWQzY2Q5MjlhZjNiYTk3N2YyYzYiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjIyMjIyMjIyMiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL2NpdGl6ZW5zaGlwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJQZXJtYW5lbnRSZXNpZGVudENhcmQiXSwibmFtZSI6IlBlcm1hbmVudCBSZXNpZGVudCBDYXJkIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6WyJQZXJtYW5lbnRSZXNpZGVudCIsIlBlcnNvbiJdLCJnaXZlbk5hbWUiOiJWYXNpbCIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXYiLCJnZW5kZXIiOiJNYWxlIiwicmVzaWRlbnRTaW5jZSI6IjE5OTctMDEtMDEiLCJiaXJ0aENvdW50cnkiOiJCdWxnYXJpYSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifX0sIm5iZiI6MTY1MjQ1OTY2My4zMzk2NiwiZXhwIjoxNjY4MzYwODYzLjMzOTY2Mn0.xsdvBo2QuDkgC8-tVNms6myubwOd349dy1B2hnVb4bW1dX5fv3D6NaulcBMxmrDb0Sc633iyBQ-Zb8HoaqN9AA"
+          }
+        }
+      },
+      {
+        "name": "Driving Licence Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAyYmI3NjM5MTZmMGE0MzA1ZGEzYzIxYjE2YjU1MTNhZmIyMzUxOWI2Y2MxYzEyZWJlMzZlNjdiMGFlM2QxNDJkYiNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMmJiNzYzOTE2ZjBhNDMwNWRhM2MyMWIxNmI1NTEzYWZiMjM1MTliNmNjMWMxMmViZTM2ZTY3YjBhZTNkMTQyZGIiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjMzMzMzMzMzLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmRsL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJJc28xODAxM0RyaXZlcnNMaWNlbnNlIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImxpY2Vuc2UiOnsidHlwZSI6IklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiLCJkb2N1bWVudF9udW1iZXIiOiIxMjM0NTY3OCIsImZhbWlseV9uYW1lIjoiUGFwYW5jaGV2IiwiZ2l2ZW5fbmFtZSI6IlZhc2lsIiwiYmlydGhfZGF0ZSI6IjE5OTctMDEtMDEiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMVQxMDowMDowMC4wMDAwMDAwLTA3OjAwIiwiZXhwaXJ5X2RhdGUiOiIyMDIwLTAxLTAxVDEyOjAwOjAwLjAwMDAwMDAtMDY6MDAiLCJpc3N1aW5nX2NvdW50cnkiOiJERSIsImlzc3VpbmdfYXV0aG9yaXR5IjoiRE1WIiwiZHJpdmluZ19wcml2aWxlZ2VzIjpbeyJjb2RlcyI6W3siY29kZSI6IkQifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkQiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9LHsiY29kZXMiOlt7ImNvZGUiOiJDIn1dLCJ2ZWhpY2xlX2NhdGVnb3J5X2NvZGUiOiJDIiwiaXNzdWVfZGF0ZSI6IjIwMjAtMDEtMDEiLCJleHBpcnlfZGF0ZSI6IjIwMzAtMDEtMDEifV19fX0sIm5iZiI6MTY1MjQ1OTY2My4zNDAwMzMsImV4cCI6MTY2ODM2MDg2My4zNDAwMzZ9.M-SdmnUPbzU2o61gcapw1Hc-0xivXIjee222TGX_SA6QwfSYNFlRppfMZeGFEOOOKihqMkUgpSwnXeMbENvQDA",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vdl/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "Iso18013DriversLicense"
+          ],
+          "credentialSubject": {
+            "license": {
+              "type": "Iso18013DriversLicense",
+              "document_number": "12345678",
+              "family_name": "Papanchev",
+              "given_name": "Vasil",
+              "birth_date": "1997-01-01",
+              "issue_date": "2020-01-01T10:00:00.0000000-07:00",
+              "expiry_date": "2020-01-01T12:00:00.0000000-06:00",
+              "issuing_country": "DE",
+              "issuing_authority": "DMV",
+              "driving_privileges": [
+                {
+                  "codes": [
+                    {
+                      "code": "D"
+                    }
+                  ],
+                  "vehicle_category_code": "D",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                },
+                {
+                  "codes": [
+                    {
+                      "code": "C"
+                    }
+                  ],
+                  "vehicle_category_code": "C",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                }
+              ]
+            },
+            "id": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57"
+          },
+          "expirationDate": "2022-11-13T18:34:23.340036",
+          "issuer": "did:ethr:0x3:0x02bb763916f0a4305da3c21b16b5513afb23519b6cc1c12ebe36e67b0ae3d142db",
+          "issuanceDate": "2022-05-13T18:34:23.340033",
+          "id": 33333333,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAyYmI3NjM5MTZmMGE0MzA1ZGEzYzIxYjE2YjU1MTNhZmIyMzUxOWI2Y2MxYzEyZWJlMzZlNjdiMGFlM2QxNDJkYiNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMmJiNzYzOTE2ZjBhNDMwNWRhM2MyMWIxNmI1NTEzYWZiMjM1MTliNmNjMWMxMmViZTM2ZTY3YjBhZTNkMTQyZGIiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjMzMzMzMzMzLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmRsL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJJc28xODAxM0RyaXZlcnNMaWNlbnNlIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImxpY2Vuc2UiOnsidHlwZSI6IklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiLCJkb2N1bWVudF9udW1iZXIiOiIxMjM0NTY3OCIsImZhbWlseV9uYW1lIjoiUGFwYW5jaGV2IiwiZ2l2ZW5fbmFtZSI6IlZhc2lsIiwiYmlydGhfZGF0ZSI6IjE5OTctMDEtMDEiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMVQxMDowMDowMC4wMDAwMDAwLTA3OjAwIiwiZXhwaXJ5X2RhdGUiOiIyMDIwLTAxLTAxVDEyOjAwOjAwLjAwMDAwMDAtMDY6MDAiLCJpc3N1aW5nX2NvdW50cnkiOiJERSIsImlzc3VpbmdfYXV0aG9yaXR5IjoiRE1WIiwiZHJpdmluZ19wcml2aWxlZ2VzIjpbeyJjb2RlcyI6W3siY29kZSI6IkQifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkQiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9LHsiY29kZXMiOlt7ImNvZGUiOiJDIn1dLCJ2ZWhpY2xlX2NhdGVnb3J5X2NvZGUiOiJDIiwiaXNzdWVfZGF0ZSI6IjIwMjAtMDEtMDEiLCJleHBpcnlfZGF0ZSI6IjIwMzAtMDEtMDEifV19fX0sIm5iZiI6MTY1MjQ1OTY2My4zNDAwMzMsImV4cCI6MTY2ODM2MDg2My4zNDAwMzZ9.M-SdmnUPbzU2o61gcapw1Hc-0xivXIjee222TGX_SA6QwfSYNFlRppfMZeGFEOOOKihqMkUgpSwnXeMbENvQDA"
+          }
+        }
+      },
+      {
+        "name": "Covid-19 Vaccination Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMmFiMDU3OGM4Zjg5Y2VlMjI5YjVmOWJhMWU3YzEwZTdiMWFlODBiM2I4NzhlYmM2YTY3MTljMDg5MTkxNTlmMSNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzJhYjA1NzhjOGY4OWNlZTIyOWI1ZjliYTFlN2MxMGU3YjFhZTgwYjNiODc4ZWJjNmE2NzE5YzA4OTE5MTU5ZjEiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjQ0NDQ0NDQ0LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmFjY2luYXRpb24vdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZhY2NpbmF0aW9uQ2VydGlmaWNhdGUiXSwibmFtZSI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiZGVzY3JpcHRpb24iOiJDT1ZJRC0xOSBWYWNjaW5hdGlvbiBDZXJ0aWZpY2F0ZSIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7InR5cGUiOiJWYWNjaW5hdGlvbkV2ZW50IiwiYmF0Y2hOdW1iZXIiOiIxMjMxMjMxMiIsImFkbWluaXN0ZXJpbmdDZW50cmUiOiJNb0giLCJoZWFsdGhQcm9mZXNzaW9uYWwiOiJNb0giLCJjb3VudHJ5T2ZWYWNjaW5hdGlvbiI6IkRFIiwicmVjaXBpZW50Ijp7InR5cGUiOiJWYWNjaW5lUmVjaXBpZW50IiwiZ2l2ZW5OYW1lIjoiVmFzaWwiLCJmYW1pbHlOYW1lIjoiUGFwYW5jaGV2IiwiZ2VuZGVyIjoiTWFsZSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifSwidmFjY2luZSI6eyJ0eXBlIjoiVmFjY2luZSIsImRpc2Vhc2UiOiJDT1ZJRC0xOSIsImF0Y0NvZGUiOiJKMDdCWDAzIiwibWVkaWNpbmFsUHJvZHVjdE5hbWUiOiJDT1ZJRC0xOSBWYWNjaW5lIE1vZGVybmEiLCJtYXJrZXRpbmdBdXRob3JpemF0aW9uSG9sZGVyIjoiTW9kZXJuYSBCaW90ZWNoIn19fSwibmJmIjoxNjUyNDU5NjYzLjM0MDQxNCwiZXhwIjoxNjY4MzYwODYzLjM0MDQxNn0.GWFS5LblVfZz0RgM_Nr3ApCWlX6kw5Lf93Hm9dBLrkGFIpdOcKSH_MEdC4dW7x1_o974sP2rKyYZI6NSaTJbDQ",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vaccination/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "VaccinationCertificate"
+          ],
+          "name": "COVID-19 Vaccination Certificate",
+          "description": "COVID-19 Vaccination Certificate",
+          "credentialSubject": {
+            "type": "VaccinationEvent",
+            "batchNumber": "12312312",
+            "administeringCentre": "MoH",
+            "healthProfessional": "MoH",
+            "countryOfVaccination": "DE",
+            "recipient": {
+              "type": "VaccineRecipient",
+              "givenName": "Vasil",
+              "familyName": "Papanchev",
+              "gender": "Male",
+              "birthDate": "1997-01-01"
+            },
+            "vaccine": {
+              "type": "Vaccine",
+              "disease": "COVID-19",
+              "atcCode": "J07BX03",
+              "medicinalProductName": "COVID-19 Vaccine Moderna",
+              "marketingAuthorizationHolder": "Moderna Biotech"
+            },
+            "id": "did:ethr:0x3:0x0354c8979937cf71f7de29307dff819b161c52f9f4b536c45b99bdb2caaa7acf57"
+          },
+          "expirationDate": "2022-11-13T18:34:23.340416",
+          "issuer": "did:ethr:0x3:0x032ab0578c8f89cee229b5f9ba1e7c10e7b1ae80b3b878ebc6a6719c08919159f1",
+          "issuanceDate": "2022-05-13T18:34:23.340414",
+          "id": 44444444,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMmFiMDU3OGM4Zjg5Y2VlMjI5YjVmOWJhMWU3YzEwZTdiMWFlODBiM2I4NzhlYmM2YTY3MTljMDg5MTkxNTlmMSNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzJhYjA1NzhjOGY4OWNlZTIyOWI1ZjliYTFlN2MxMGU3YjFhZTgwYjNiODc4ZWJjNmE2NzE5YzA4OTE5MTU5ZjEiLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjQ0NDQ0NDQ0LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmFjY2luYXRpb24vdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZhY2NpbmF0aW9uQ2VydGlmaWNhdGUiXSwibmFtZSI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiZGVzY3JpcHRpb24iOiJDT1ZJRC0xOSBWYWNjaW5hdGlvbiBDZXJ0aWZpY2F0ZSIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7InR5cGUiOiJWYWNjaW5hdGlvbkV2ZW50IiwiYmF0Y2hOdW1iZXIiOiIxMjMxMjMxMiIsImFkbWluaXN0ZXJpbmdDZW50cmUiOiJNb0giLCJoZWFsdGhQcm9mZXNzaW9uYWwiOiJNb0giLCJjb3VudHJ5T2ZWYWNjaW5hdGlvbiI6IkRFIiwicmVjaXBpZW50Ijp7InR5cGUiOiJWYWNjaW5lUmVjaXBpZW50IiwiZ2l2ZW5OYW1lIjoiVmFzaWwiLCJmYW1pbHlOYW1lIjoiUGFwYW5jaGV2IiwiZ2VuZGVyIjoiTWFsZSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifSwidmFjY2luZSI6eyJ0eXBlIjoiVmFjY2luZSIsImRpc2Vhc2UiOiJDT1ZJRC0xOSIsImF0Y0NvZGUiOiJKMDdCWDAzIiwibWVkaWNpbmFsUHJvZHVjdE5hbWUiOiJDT1ZJRC0xOSBWYWNjaW5lIE1vZGVybmEiLCJtYXJrZXRpbmdBdXRob3JpemF0aW9uSG9sZGVyIjoiTW9kZXJuYSBCaW90ZWNoIn19fSwibmJmIjoxNjUyNDU5NjYzLjM0MDQxNCwiZXhwIjoxNjY4MzYwODYzLjM0MDQxNn0.GWFS5LblVfZz0RgM_Nr3ApCWlX6kw5Lf93Hm9dBLrkGFIpdOcKSH_MEdC4dW7x1_o974sP2rKyYZI6NSaTJbDQ"
+          }
+        }
+      }
+    ]
+  },
+  "2": {
+    "holder_did": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR",
+    "holder_signing_key": "wtnGRVzPQYPQ8j9Ew4aUoR2FiK9fiGVoW3zPJGvTXuSEqevYQWhig9NbcCgZum3qrsnxCwWQPhpBUBdi1VDMAVB",
+    "holder_verify_key_id": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR#verkey",
+    "credentials": [
+      {
+        "name": "Degree Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOllZODFHdmpacEE5eXU5YnYzY282dFojdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpZWTgxR3ZqWnBBOXl1OWJ2M2NvNnRaIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MTExMTExMTExLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL2V4YW1wbGVzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJVbml2ZXJzaXR5RGVncmVlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJkZWdyZWUiOnsidHlwZSI6IkJhY2hlbG9yRGVncmVlIiwibmFtZSI6IkJhY2hlbG9yIG9mIEFydHMifSwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTgzMDEsImV4cCI6MTY2ODM2MTE0MS4wOTgzMDN9.cB1yj7_I20GP6rH7ndTvj-klVjBS4OAoDFbiyyP_cr5lOcW5suFOZ6k0SPMkYIr7wR3ue2GXti-B3HoYjKsvAg",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "UniversityDegreeCredential"
+          ],
+          "credentialSubject": {
+            "degree": {
+              "type": "BachelorDegree",
+              "name": "Bachelor of Arts"
+            },
+            "id": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR"
+          },
+          "expirationDate": "2022-11-13T18:39:01.098303",
+          "issuer": "did:indy:local:YY81GvjZpA9yu9bv3co6tZ",
+          "issuanceDate": "2022-05-13T18:39:01.098301",
+          "id": 111111111,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOllZODFHdmpacEE5eXU5YnYzY282dFojdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpZWTgxR3ZqWnBBOXl1OWJ2M2NvNnRaIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MTExMTExMTExLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL2V4YW1wbGVzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJVbml2ZXJzaXR5RGVncmVlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJkZWdyZWUiOnsidHlwZSI6IkJhY2hlbG9yRGVncmVlIiwibmFtZSI6IkJhY2hlbG9yIG9mIEFydHMifSwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTgzMDEsImV4cCI6MTY2ODM2MTE0MS4wOTgzMDN9.cB1yj7_I20GP6rH7ndTvj-klVjBS4OAoDFbiyyP_cr5lOcW5suFOZ6k0SPMkYIr7wR3ue2GXti-B3HoYjKsvAg"
+          }
+        }
+      },
+      {
+        "name": "Resident Card Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOlVOOU5rN3pEbmRrTFAyVmdGZnlhY0EjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpVTjlOazd6RG5ka0xQMlZnRmZ5YWNBIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MjIyMjIyMjIyLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvY2l0aXplbnNoaXAvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlBlcm1hbmVudFJlc2lkZW50Q2FyZCJdLCJuYW1lIjoiUGVybWFuZW50IFJlc2lkZW50IENhcmQiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIlBlcm1hbmVudFJlc2lkZW50IiwiUGVyc29uIl0sImdpdmVuTmFtZSI6Ildhc3NpbCIsImZhbWlseU5hbWUiOiJQYXBhbnRzY2hldyIsImdlbmRlciI6Ik1hbGUiLCJyZXNpZGVudFNpbmNlIjoiMTk5Ny0wMS0wMSIsImJpcnRoQ291bnRyeSI6Ikdlcm1hbnkiLCJiaXJ0aERhdGUiOiIxOTk3LTAxLTAxIiwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTg2NDgsImV4cCI6MTY2ODM2MTE0MS4wOTg2NX0.frI18fwGCSYLzgPOZPKnxu3oPG9J42pueiiQYJzqmSi7-LRarIILfzhwTQ9irLM_GE0KsGy8lBbwF-JcAwPDDg",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/citizenship/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "PermanentResidentCard"
+          ],
+          "name": "Permanent Resident Card",
+          "credentialSubject": {
+            "type": [
+              "PermanentResident",
+              "Person"
+            ],
+            "givenName": "Wassil",
+            "familyName": "Papantschew",
+            "gender": "Male",
+            "residentSince": "1997-01-01",
+            "birthCountry": "Germany",
+            "birthDate": "1997-01-01",
+            "id": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR"
+          },
+          "expirationDate": "2022-11-13T18:39:01.098650",
+          "issuer": "did:indy:local:UN9Nk7zDndkLP2VgFfyacA",
+          "issuanceDate": "2022-05-13T18:39:01.098648",
+          "id": 222222222,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOlVOOU5rN3pEbmRrTFAyVmdGZnlhY0EjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpVTjlOazd6RG5ka0xQMlZnRmZ5YWNBIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MjIyMjIyMjIyLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvY2l0aXplbnNoaXAvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlBlcm1hbmVudFJlc2lkZW50Q2FyZCJdLCJuYW1lIjoiUGVybWFuZW50IFJlc2lkZW50IENhcmQiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIlBlcm1hbmVudFJlc2lkZW50IiwiUGVyc29uIl0sImdpdmVuTmFtZSI6Ildhc3NpbCIsImZhbWlseU5hbWUiOiJQYXBhbnRzY2hldyIsImdlbmRlciI6Ik1hbGUiLCJyZXNpZGVudFNpbmNlIjoiMTk5Ny0wMS0wMSIsImJpcnRoQ291bnRyeSI6Ikdlcm1hbnkiLCJiaXJ0aERhdGUiOiIxOTk3LTAxLTAxIiwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTg2NDgsImV4cCI6MTY2ODM2MTE0MS4wOTg2NX0.frI18fwGCSYLzgPOZPKnxu3oPG9J42pueiiQYJzqmSi7-LRarIILfzhwTQ9irLM_GE0KsGy8lBbwF-JcAwPDDg"
+          }
+        }
+      },
+      {
+        "name": "Driving Licence Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOlNOWlU2NmNSdFhUcnJkRjk0V0hSTFIjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpTTlpVNjZjUnRYVHJyZEY5NFdIUkxSIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MzMzMzMzMzMsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92ZGwvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibGljZW5zZSI6eyJ0eXBlIjoiSXNvMTgwMTNEcml2ZXJzTGljZW5zZSIsImRvY3VtZW50X251bWJlciI6IjEyMzQ1Njc4IiwiZmFtaWx5X25hbWUiOiJQYXBhbnRzY2hldyIsImdpdmVuX25hbWUiOiJXYXNzaWwiLCJiaXJ0aF9kYXRlIjoiMTk5Ny0wMS0wMSIsImlzc3VlX2RhdGUiOiIyMDIwLTAxLTAxVDEwOjAwOjAwLjAwMDAwMDAtMDc6MDAiLCJleHBpcnlfZGF0ZSI6IjIwMjAtMDEtMDFUMTI6MDA6MDAuMDAwMDAwMC0wNjowMCIsImlzc3VpbmdfY291bnRyeSI6IkRFIiwiaXNzdWluZ19hdXRob3JpdHkiOiJETVYiLCJkcml2aW5nX3ByaXZpbGVnZXMiOlt7ImNvZGVzIjpbeyJjb2RlIjoiRCJ9XSwidmVoaWNsZV9jYXRlZ29yeV9jb2RlIjoiRCIsImlzc3VlX2RhdGUiOiIyMDIwLTAxLTAxIiwiZXhwaXJ5X2RhdGUiOiIyMDMwLTAxLTAxIn0seyJjb2RlcyI6W3siY29kZSI6IkMifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkMiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9XX0sImlkIjoiZGlkOmV0aHI6MHgzOjB4MDM1NGM4OTc5OTM3Y2Y3MWY3ZGUyOTMwN2RmZjgxOWIxNjFjNTJmOWY0YjUzNmM0NWI5OWJkYjJjYWFhN2FjZjU3In19LCJuYmYiOjE2NTI0NTk5NDEuMDk4OTkzLCJleHAiOjE2NjgzNjExNDEuMDk4OTk1fQ.AeC8tfeonQV4vjvkaTwwe8ZsX5onKDgXzUFDH0Bp_3dnV6AJM5LdVPoqgrylkp-x5-DUG4-BV6pu5SXL8SA-DA",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vdl/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "Iso18013DriversLicense"
+          ],
+          "credentialSubject": {
+            "license": {
+              "type": "Iso18013DriversLicense",
+              "document_number": "12345678",
+              "family_name": "Papantschew",
+              "given_name": "Wassil",
+              "birth_date": "1997-01-01",
+              "issue_date": "2020-01-01T10:00:00.0000000-07:00",
+              "expiry_date": "2020-01-01T12:00:00.0000000-06:00",
+              "issuing_country": "DE",
+              "issuing_authority": "DMV",
+              "driving_privileges": [
+                {
+                  "codes": [
+                    {
+                      "code": "D"
+                    }
+                  ],
+                  "vehicle_category_code": "D",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                },
+                {
+                  "codes": [
+                    {
+                      "code": "C"
+                    }
+                  ],
+                  "vehicle_category_code": "C",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                }
+              ]
+            },
+            "id": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR"
+          },
+          "expirationDate": "2022-11-13T18:39:01.098995",
+          "issuer": "did:indy:local:SNZU66cRtXTrrdF94WHRLR",
+          "issuanceDate": "2022-05-13T18:39:01.098993",
+          "id": 33333333,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOlNOWlU2NmNSdFhUcnJkRjk0V0hSTFIjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpTTlpVNjZjUnRYVHJyZEY5NFdIUkxSIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6MzMzMzMzMzMsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92ZGwvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibGljZW5zZSI6eyJ0eXBlIjoiSXNvMTgwMTNEcml2ZXJzTGljZW5zZSIsImRvY3VtZW50X251bWJlciI6IjEyMzQ1Njc4IiwiZmFtaWx5X25hbWUiOiJQYXBhbnRzY2hldyIsImdpdmVuX25hbWUiOiJXYXNzaWwiLCJiaXJ0aF9kYXRlIjoiMTk5Ny0wMS0wMSIsImlzc3VlX2RhdGUiOiIyMDIwLTAxLTAxVDEwOjAwOjAwLjAwMDAwMDAtMDc6MDAiLCJleHBpcnlfZGF0ZSI6IjIwMjAtMDEtMDFUMTI6MDA6MDAuMDAwMDAwMC0wNjowMCIsImlzc3VpbmdfY291bnRyeSI6IkRFIiwiaXNzdWluZ19hdXRob3JpdHkiOiJETVYiLCJkcml2aW5nX3ByaXZpbGVnZXMiOlt7ImNvZGVzIjpbeyJjb2RlIjoiRCJ9XSwidmVoaWNsZV9jYXRlZ29yeV9jb2RlIjoiRCIsImlzc3VlX2RhdGUiOiIyMDIwLTAxLTAxIiwiZXhwaXJ5X2RhdGUiOiIyMDMwLTAxLTAxIn0seyJjb2RlcyI6W3siY29kZSI6IkMifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkMiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9XX0sImlkIjoiZGlkOmV0aHI6MHgzOjB4MDM1NGM4OTc5OTM3Y2Y3MWY3ZGUyOTMwN2RmZjgxOWIxNjFjNTJmOWY0YjUzNmM0NWI5OWJkYjJjYWFhN2FjZjU3In19LCJuYmYiOjE2NTI0NTk5NDEuMDk4OTkzLCJleHAiOjE2NjgzNjExNDEuMDk4OTk1fQ.AeC8tfeonQV4vjvkaTwwe8ZsX5onKDgXzUFDH0Bp_3dnV6AJM5LdVPoqgrylkp-x5-DUG4-BV6pu5SXL8SA-DA"
+          }
+        }
+      },
+      {
+        "name": "Covid-19 Vaccination Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOkpVMno3YWIxZWV3Tm5GYkVzdHJiZWYjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpKVTJ6N2FiMWVld05uRmJFc3RyYmVmIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6NDQ0NDQ0NDQsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92YWNjaW5hdGlvbi92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmFjY2luYXRpb25DZXJ0aWZpY2F0ZSJdLCJuYW1lIjoiQ09WSUQtMTkgVmFjY2luYXRpb24gQ2VydGlmaWNhdGUiLCJkZXNjcmlwdGlvbiI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlZhY2NpbmF0aW9uRXZlbnQiLCJiYXRjaE51bWJlciI6IjEyMzEyMzEyIiwiYWRtaW5pc3RlcmluZ0NlbnRyZSI6Ik1vSCIsImhlYWx0aFByb2Zlc3Npb25hbCI6Ik1vSCIsImNvdW50cnlPZlZhY2NpbmF0aW9uIjoiREUiLCJyZWNpcGllbnQiOnsidHlwZSI6IlZhY2NpbmVSZWNpcGllbnQiLCJnaXZlbk5hbWUiOiJXYXNzaWwiLCJmYW1pbHlOYW1lIjoiUGFwYW50c2NoZXciLCJnZW5kZXIiOiJNYWxlIiwiYmlydGhEYXRlIjoiMTk5Ny0wMS0wMSJ9LCJ2YWNjaW5lIjp7InR5cGUiOiJWYWNjaW5lIiwiZGlzZWFzZSI6IkNPVklELTE5IiwiYXRjQ29kZSI6IkowN0JYMDMiLCJtZWRpY2luYWxQcm9kdWN0TmFtZSI6IkNPVklELTE5IFZhY2NpbmUgTW9kZXJuYSIsIm1hcmtldGluZ0F1dGhvcml6YXRpb25Ib2xkZXIiOiJNb2Rlcm5hIEJpb3RlY2gifSwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTkzNiwiZXhwIjoxNjY4MzYxMTQxLjA5OTM2Mn0.Z4PNY9PZaadgK7bp8YWfa0sXuRgRsGldY4vMlXDdlFj3nFQBYRf_CdVYMS56l4SkE8AncAzwpoBjiXsApNeyAg",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vaccination/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "VaccinationCertificate"
+          ],
+          "name": "COVID-19 Vaccination Certificate",
+          "description": "COVID-19 Vaccination Certificate",
+          "credentialSubject": {
+            "type": "VaccinationEvent",
+            "batchNumber": "12312312",
+            "administeringCentre": "MoH",
+            "healthProfessional": "MoH",
+            "countryOfVaccination": "DE",
+            "recipient": {
+              "type": "VaccineRecipient",
+              "givenName": "Wassil",
+              "familyName": "Papantschew",
+              "gender": "Male",
+              "birthDate": "1997-01-01"
+            },
+            "vaccine": {
+              "type": "Vaccine",
+              "disease": "COVID-19",
+              "atcCode": "J07BX03",
+              "medicinalProductName": "COVID-19 Vaccine Moderna",
+              "marketingAuthorizationHolder": "Moderna Biotech"
+            },
+            "id": "did:indy:local:V1pw4grR9EFRLtS7iUpWeR"
+          },
+          "expirationDate": "2022-11-13T18:39:01.099362",
+          "issuer": "did:indy:local:JU2z7ab1eewNnFbEstrbef",
+          "issuanceDate": "2022-05-13T18:39:01.099360",
+          "id": 44444444,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOkpVMno3YWIxZWV3Tm5GYkVzdHJiZWYjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpKVTJ6N2FiMWVld05uRmJFc3RyYmVmIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6NDQ0NDQ0NDQsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92YWNjaW5hdGlvbi92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmFjY2luYXRpb25DZXJ0aWZpY2F0ZSJdLCJuYW1lIjoiQ09WSUQtMTkgVmFjY2luYXRpb24gQ2VydGlmaWNhdGUiLCJkZXNjcmlwdGlvbiI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlZhY2NpbmF0aW9uRXZlbnQiLCJiYXRjaE51bWJlciI6IjEyMzEyMzEyIiwiYWRtaW5pc3RlcmluZ0NlbnRyZSI6Ik1vSCIsImhlYWx0aFByb2Zlc3Npb25hbCI6Ik1vSCIsImNvdW50cnlPZlZhY2NpbmF0aW9uIjoiREUiLCJyZWNpcGllbnQiOnsidHlwZSI6IlZhY2NpbmVSZWNpcGllbnQiLCJnaXZlbk5hbWUiOiJXYXNzaWwiLCJmYW1pbHlOYW1lIjoiUGFwYW50c2NoZXciLCJnZW5kZXIiOiJNYWxlIiwiYmlydGhEYXRlIjoiMTk5Ny0wMS0wMSJ9LCJ2YWNjaW5lIjp7InR5cGUiOiJWYWNjaW5lIiwiZGlzZWFzZSI6IkNPVklELTE5IiwiYXRjQ29kZSI6IkowN0JYMDMiLCJtZWRpY2luYWxQcm9kdWN0TmFtZSI6IkNPVklELTE5IFZhY2NpbmUgTW9kZXJuYSIsIm1hcmtldGluZ0F1dGhvcml6YXRpb25Ib2xkZXIiOiJNb2Rlcm5hIEJpb3RlY2gifSwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTkzNiwiZXhwIjoxNjY4MzYxMTQxLjA5OTM2Mn0.Z4PNY9PZaadgK7bp8YWfa0sXuRgRsGldY4vMlXDdlFj3nFQBYRf_CdVYMS56l4SkE8AncAzwpoBjiXsApNeyAg"
+          }
+        }
+      }
+    ]
+  }
+}
