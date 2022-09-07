@@ -6,6 +6,8 @@
     "credentials": [
       {
         "name": "Degree Credential",
+        "jjw": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMjVkMDkxOTAyZTQ2ODc1NTY5NGIxMzIzZGQ2M2RhNTJkMDUyMzgzODRmMGJmOTNiMGUzMGY2ZGM1YmM2NDFkNyNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzI1ZDA5MTkwMmU0Njg3NTU2OTRiMTMyM2RkNjNkYTUyZDA1MjM4Mzg0ZjBiZjkzYjBlMzBmNmRjNWJjNjQxZDciLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjExMTExMTExMSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy9leGFtcGxlcy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVW5pdmVyc2l0eURlZ3JlZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlIjp7InR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIn19fSwibmJmIjoxNjYyNTU4MjIyLjcyNDM0NSwiZXhwIjoxNjc4MjAwMjIyLjcyNDM2fQ.t0mJUXgF9JG_9-bBlK6jAMOADC17QKkm4elwNj0YFGdbxq9_l_CMie2fm-t53NCCIpPQ_ctXsuS8gj8Zuq29Ag",
+        "jww": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMjVkMDkxOTAyZTQ2ODc1NTY5NGIxMzIzZGQ2M2RhNTJkMDUyMzgzODRmMGJmOTNiMGUzMGY2ZGM1YmM2NDFkNyNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzI1ZDA5MTkwMmU0Njg3NTU2OTRiMTMyM2RkNjNkYTUyZDA1MjM4Mzg0ZjBiZjkzYjBlMzBmNmRjNWJjNjQxZDciLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjExMTExMTExMSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy9leGFtcGxlcy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVW5pdmVyc2l0eURlZ3JlZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlIjp7InR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIn19fSwibmJmIjoxNjYyNTU4MTM5Ljc5MDMzOCwiZXhwIjoxNjc4MjAwMTM5Ljc5MDM1NH0.oTpHuzUzLaNFaZT8pOOcse0TzytfiUZwRynFJFFo2lA_05U3EDb0199xiBq1swk9rkcdxP3jZ0Ov3MawHOJ1Cg",
         "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpldGhyOjB4MzoweDAzMjVkMDkxOTAyZTQ2ODc1NTY5NGIxMzIzZGQ2M2RhNTJkMDUyMzgzODRmMGJmOTNiMGUzMGY2ZGM1YmM2NDFkNyNkZWxlZ2F0ZS0xIn0.eyJpc3MiOiJkaWQ6ZXRocjoweDM6MHgwMzI1ZDA5MTkwMmU0Njg3NTU2OTRiMTMyM2RkNjNkYTUyZDA1MjM4Mzg0ZjBiZjkzYjBlMzBmNmRjNWJjNjQxZDciLCJzdWIiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTciLCJqdGkiOjExMTExMTExMSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy9leGFtcGxlcy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVW5pdmVyc2l0eURlZ3JlZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlIjp7InR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIn19fSwibmJmIjoxNjUyNDU5NjYzLjMzOTE0NCwiZXhwIjoxNjY4MzYwODYzLjMzOTE0OX0.ot2dLANA3VP18g0osdyiv7oVX9JymwLddfU9TdA7n-MDcH07-eeX2y_8Jxs6WViatubRuVOoQ6NqDGwKVP5jBQ",
         "w3c_payload": {
           "@context": [
@@ -346,6 +348,182 @@
           "proof": {
             "type": "JwtProof2020",
             "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDppbmR5OmxvY2FsOkpVMno3YWIxZWV3Tm5GYkVzdHJiZWYjdmVya2V5In0.eyJpc3MiOiJkaWQ6aW5keTpsb2NhbDpKVTJ6N2FiMWVld05uRmJFc3RyYmVmIiwic3ViIjoiZGlkOmluZHk6bG9jYWw6VjFwdzRnclI5RUZSTHRTN2lVcFdlUiIsImp0aSI6NDQ0NDQ0NDQsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92YWNjaW5hdGlvbi92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmFjY2luYXRpb25DZXJ0aWZpY2F0ZSJdLCJuYW1lIjoiQ09WSUQtMTkgVmFjY2luYXRpb24gQ2VydGlmaWNhdGUiLCJkZXNjcmlwdGlvbiI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlZhY2NpbmF0aW9uRXZlbnQiLCJiYXRjaE51bWJlciI6IjEyMzEyMzEyIiwiYWRtaW5pc3RlcmluZ0NlbnRyZSI6Ik1vSCIsImhlYWx0aFByb2Zlc3Npb25hbCI6Ik1vSCIsImNvdW50cnlPZlZhY2NpbmF0aW9uIjoiREUiLCJyZWNpcGllbnQiOnsidHlwZSI6IlZhY2NpbmVSZWNpcGllbnQiLCJnaXZlbk5hbWUiOiJXYXNzaWwiLCJmYW1pbHlOYW1lIjoiUGFwYW50c2NoZXciLCJnZW5kZXIiOiJNYWxlIiwiYmlydGhEYXRlIjoiMTk5Ny0wMS0wMSJ9LCJ2YWNjaW5lIjp7InR5cGUiOiJWYWNjaW5lIiwiZGlzZWFzZSI6IkNPVklELTE5IiwiYXRjQ29kZSI6IkowN0JYMDMiLCJtZWRpY2luYWxQcm9kdWN0TmFtZSI6IkNPVklELTE5IFZhY2NpbmUgTW9kZXJuYSIsIm1hcmtldGluZ0F1dGhvcml6YXRpb25Ib2xkZXIiOiJNb2Rlcm5hIEJpb3RlY2gifSwiaWQiOiJkaWQ6ZXRocjoweDM6MHgwMzU0Yzg5Nzk5MzdjZjcxZjdkZTI5MzA3ZGZmODE5YjE2MWM1MmY5ZjRiNTM2YzQ1Yjk5YmRiMmNhYWE3YWNmNTcifX0sIm5iZiI6MTY1MjQ1OTk0MS4wOTkzNiwiZXhwIjoxNjY4MzYxMTQxLjA5OTM2Mn0.Z4PNY9PZaadgK7bp8YWfa0sXuRgRsGldY4vMlXDdlFj3nFQBYRf_CdVYMS56l4SkE8AncAzwpoBjiXsApNeyAg"
+          }
+        }
+      }
+    ]
+  },
+  "3": {
+    "holder_did": "did:web:papanchev.solidweb.org:dids:alice",
+    "holder_signing_key": "4WecivdpzGjWh8KNtjCZ1SuPG4XuRRCFAKEaPHq9iuof6zaPHwsWATcQxHYi76fZ9vTb2tE4mTcAKmyQCgXJshFa",
+    "holder_verify_key_id": "did:web:papanchev.solidweb.org:dids:alice#controller",
+    "credentials": [
+      {
+        "name": "Degree Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnVuaXZlcnNpdHktaXNzdWVyI2NvbnRyb2xsZXIifQ.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczp1bml2ZXJzaXR5LWlzc3VlciIsInN1YiI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOmFsaWNlIiwianRpIjoxMTExMTExMTEsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvZXhhbXBsZXMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlVuaXZlcnNpdHlEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZSI6eyJ0eXBlIjoiQmFjaGVsb3JEZWdyZWUiLCJuYW1lIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSJ9fX0sIm5iZiI6MTY2MjU2MTc2My41MjgsImV4cCI6MTY3ODIwMzc2My41MjgwMDJ9.wAm2BbLV0uUFkHqU_3jJMLqnCTQRwh0ywxV6j_yxrv5Nbl0_m5LnVdOHrdnogLTya2y9vdxvHapr1B-XZU15Cw",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "UniversityDegreeCredential"
+          ],
+          "credentialSubject": {
+            "degree": {
+              "type": "BachelorDegree",
+              "name": "Bachelor of Science"
+            },
+            "id": "did:web:papanchev.solidweb.org:dids:alice"
+          },
+          "expirationDate": "2023-03-07T16:42:43.528002",
+          "issuer": "did:web:papanchev.solidweb.org:dids:university-issuer",
+          "issuanceDate": "2022-09-07T16:42:43.528000",
+          "id": 111111111,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnVuaXZlcnNpdHktaXNzdWVyI2NvbnRyb2xsZXIifQ.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczp1bml2ZXJzaXR5LWlzc3VlciIsInN1YiI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOmFsaWNlIiwianRpIjoxMTExMTExMTEsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvZXhhbXBsZXMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlVuaXZlcnNpdHlEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZSI6eyJ0eXBlIjoiQmFjaGVsb3JEZWdyZWUiLCJuYW1lIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSJ9fX0sIm5iZiI6MTY2MjU2MTc2My41MjgsImV4cCI6MTY3ODIwMzc2My41MjgwMDJ9.wAm2BbLV0uUFkHqU_3jJMLqnCTQRwh0ywxV6j_yxrv5Nbl0_m5LnVdOHrdnogLTya2y9vdxvHapr1B-XZU15Cw"
+          }
+        }
+      },
+      {
+        "name": "Resident Card Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnJlc2lkZW5jZS1pc3N1ZXIjY29udHJvbGxlciJ9.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczpyZXNpZGVuY2UtaXNzdWVyIiwic3ViIjoiZGlkOndlYjpwYXBhbmNoZXYuc29saWR3ZWIub3JnOmRpZHM6YWxpY2UiLCJqdGkiOjIyMjIyMjIyMiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL2NpdGl6ZW5zaGlwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJQZXJtYW5lbnRSZXNpZGVudENhcmQiXSwibmFtZSI6IlBlcm1hbmVudCBSZXNpZGVudCBDYXJkIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6WyJQZXJtYW5lbnRSZXNpZGVudCIsIlBlcnNvbiJdLCJnaXZlbk5hbWUiOiJBbGljZSIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXZhIiwiZ2VuZGVyIjoiRmVtYWxlIiwicmVzaWRlbnRTaW5jZSI6IjE5OTctMDEtMDEiLCJiaXJ0aENvdW50cnkiOiJCdWxnYXJpYSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifX0sIm5iZiI6MTY2MjU2MTc2My41MjgzNzIsImV4cCI6MTY3ODIwMzc2My41MjgzNzR9.6jDHysgvhIqhlPKFnRU1HOx3uJIT_iSFJyZMs3SmWjvr4VkQxuIjGzrQazUQDXinblBQ8kSTSpBgNtk8u7yVCQ",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/citizenship/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "PermanentResidentCard"
+          ],
+          "name": "Permanent Resident Card",
+          "credentialSubject": {
+            "type": [
+              "PermanentResident",
+              "Person"
+            ],
+            "givenName": "Alice",
+            "familyName": "Papancheva",
+            "gender": "Female",
+            "residentSince": "1997-01-01",
+            "birthCountry": "Bulgaria",
+            "birthDate": "1997-01-01",
+            "id": "did:web:papanchev.solidweb.org:dids:alice"
+          },
+          "expirationDate": "2023-03-07T16:42:43.528374",
+          "issuer": "did:web:papanchev.solidweb.org:dids:residence-issuer",
+          "issuanceDate": "2022-09-07T16:42:43.528372",
+          "id": 222222222,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnJlc2lkZW5jZS1pc3N1ZXIjY29udHJvbGxlciJ9.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczpyZXNpZGVuY2UtaXNzdWVyIiwic3ViIjoiZGlkOndlYjpwYXBhbmNoZXYuc29saWR3ZWIub3JnOmRpZHM6YWxpY2UiLCJqdGkiOjIyMjIyMjIyMiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL2NpdGl6ZW5zaGlwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJQZXJtYW5lbnRSZXNpZGVudENhcmQiXSwibmFtZSI6IlBlcm1hbmVudCBSZXNpZGVudCBDYXJkIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6WyJQZXJtYW5lbnRSZXNpZGVudCIsIlBlcnNvbiJdLCJnaXZlbk5hbWUiOiJBbGljZSIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXZhIiwiZ2VuZGVyIjoiRmVtYWxlIiwicmVzaWRlbnRTaW5jZSI6IjE5OTctMDEtMDEiLCJiaXJ0aENvdW50cnkiOiJCdWxnYXJpYSIsImJpcnRoRGF0ZSI6IjE5OTctMDEtMDEifX0sIm5iZiI6MTY2MjU2MTc2My41MjgzNzIsImV4cCI6MTY3ODIwMzc2My41MjgzNzR9.6jDHysgvhIqhlPKFnRU1HOx3uJIT_iSFJyZMs3SmWjvr4VkQxuIjGzrQazUQDXinblBQ8kSTSpBgNtk8u7yVCQ"
+          }
+        }
+      },
+      {
+        "name": "Driving Licence Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6IiJ9.eyJpc3MiOiIiLCJzdWIiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczphbGljZSIsImp0aSI6MzMzMzMzMzMsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92ZGwvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibGljZW5zZSI6eyJ0eXBlIjoiSXNvMTgwMTNEcml2ZXJzTGljZW5zZSIsImRvY3VtZW50X251bWJlciI6IjEyMzQ1Njc4IiwiZmFtaWx5X25hbWUiOiJQYXBhbmNoZXZhIiwiZ2l2ZW5fbmFtZSI6IkFsaWNlIiwiYmlydGhfZGF0ZSI6IjE5OTctMDEtMDEiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMVQxMDowMDowMC4wMDAwMDAwLTA3OjAwIiwiZXhwaXJ5X2RhdGUiOiIyMDIwLTAxLTAxVDEyOjAwOjAwLjAwMDAwMDAtMDY6MDAiLCJpc3N1aW5nX2NvdW50cnkiOiJERSIsImlzc3VpbmdfYXV0aG9yaXR5IjoiRE1WIiwiZHJpdmluZ19wcml2aWxlZ2VzIjpbeyJjb2RlcyI6W3siY29kZSI6IkQifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkQiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9LHsiY29kZXMiOlt7ImNvZGUiOiJDIn1dLCJ2ZWhpY2xlX2NhdGVnb3J5X2NvZGUiOiJDIiwiaXNzdWVfZGF0ZSI6IjIwMjAtMDEtMDEiLCJleHBpcnlfZGF0ZSI6IjIwMzAtMDEtMDEifV19fX0sIm5iZiI6MTY2MjU2MTc2My41Mjg3NjcsImV4cCI6MTY3ODIwMzc2My41Mjg3Njl9.34ax8KVgDhCvuF9yP9V2HvMbBeosVknvQ7DnvDx6u3GktCv5gOYuEdaK6us1GumsIoWg4HOhAgmefIAvOvm6CQ",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vdl/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "Iso18013DriversLicense"
+          ],
+          "credentialSubject": {
+            "license": {
+              "type": "Iso18013DriversLicense",
+              "document_number": "12345678",
+              "family_name": "Papancheva",
+              "given_name": "Alice",
+              "birth_date": "1997-01-01",
+              "issue_date": "2020-01-01T10:00:00.0000000-07:00",
+              "expiry_date": "2020-01-01T12:00:00.0000000-06:00",
+              "issuing_country": "DE",
+              "issuing_authority": "DMV",
+              "driving_privileges": [
+                {
+                  "codes": [
+                    {
+                      "code": "D"
+                    }
+                  ],
+                  "vehicle_category_code": "D",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                },
+                {
+                  "codes": [
+                    {
+                      "code": "C"
+                    }
+                  ],
+                  "vehicle_category_code": "C",
+                  "issue_date": "2020-01-01",
+                  "expiry_date": "2030-01-01"
+                }
+              ]
+            },
+            "id": "did:web:papanchev.solidweb.org:dids:alice"
+          },
+          "expirationDate": "2023-03-07T16:42:43.528769",
+          "issuer": "",
+          "issuanceDate": "2022-09-07T16:42:43.528767",
+          "id": 33333333,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6IiJ9.eyJpc3MiOiIiLCJzdWIiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczphbGljZSIsImp0aSI6MzMzMzMzMzMsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92ZGwvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIklzbzE4MDEzRHJpdmVyc0xpY2Vuc2UiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibGljZW5zZSI6eyJ0eXBlIjoiSXNvMTgwMTNEcml2ZXJzTGljZW5zZSIsImRvY3VtZW50X251bWJlciI6IjEyMzQ1Njc4IiwiZmFtaWx5X25hbWUiOiJQYXBhbmNoZXZhIiwiZ2l2ZW5fbmFtZSI6IkFsaWNlIiwiYmlydGhfZGF0ZSI6IjE5OTctMDEtMDEiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMVQxMDowMDowMC4wMDAwMDAwLTA3OjAwIiwiZXhwaXJ5X2RhdGUiOiIyMDIwLTAxLTAxVDEyOjAwOjAwLjAwMDAwMDAtMDY6MDAiLCJpc3N1aW5nX2NvdW50cnkiOiJERSIsImlzc3VpbmdfYXV0aG9yaXR5IjoiRE1WIiwiZHJpdmluZ19wcml2aWxlZ2VzIjpbeyJjb2RlcyI6W3siY29kZSI6IkQifV0sInZlaGljbGVfY2F0ZWdvcnlfY29kZSI6IkQiLCJpc3N1ZV9kYXRlIjoiMjAyMC0wMS0wMSIsImV4cGlyeV9kYXRlIjoiMjAzMC0wMS0wMSJ9LHsiY29kZXMiOlt7ImNvZGUiOiJDIn1dLCJ2ZWhpY2xlX2NhdGVnb3J5X2NvZGUiOiJDIiwiaXNzdWVfZGF0ZSI6IjIwMjAtMDEtMDEiLCJleHBpcnlfZGF0ZSI6IjIwMzAtMDEtMDEifV19fX0sIm5iZiI6MTY2MjU2MTc2My41Mjg3NjcsImV4cCI6MTY3ODIwMzc2My41Mjg3Njl9.34ax8KVgDhCvuF9yP9V2HvMbBeosVknvQ7DnvDx6u3GktCv5gOYuEdaK6us1GumsIoWg4HOhAgmefIAvOvm6CQ"
+          }
+        }
+      },
+      {
+        "name": "Covid-19 Vaccination Credential",
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnZhY2NpbmF0aW9uLWlzc3VlciNjb250cm9sbGVyIn0.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczp2YWNjaW5hdGlvbi1pc3N1ZXIiLCJzdWIiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczphbGljZSIsImp0aSI6NDQ0NDQ0NDQsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92YWNjaW5hdGlvbi92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmFjY2luYXRpb25DZXJ0aWZpY2F0ZSJdLCJuYW1lIjoiQ09WSUQtMTkgVmFjY2luYXRpb24gQ2VydGlmaWNhdGUiLCJkZXNjcmlwdGlvbiI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlZhY2NpbmF0aW9uRXZlbnQiLCJiYXRjaE51bWJlciI6IjEyMzEyMzEyIiwiYWRtaW5pc3RlcmluZ0NlbnRyZSI6Ik1vSCIsImhlYWx0aFByb2Zlc3Npb25hbCI6Ik1vSCIsImNvdW50cnlPZlZhY2NpbmF0aW9uIjoiREUiLCJyZWNpcGllbnQiOnsidHlwZSI6IlZhY2NpbmVSZWNpcGllbnQiLCJnaXZlbk5hbWUiOiJBbGljZSIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXZhIiwiZ2VuZGVyIjoiRmVtYWxlIiwiYmlydGhEYXRlIjoiMTk5Ny0wMS0wMSJ9LCJ2YWNjaW5lIjp7InR5cGUiOiJWYWNjaW5lIiwiZGlzZWFzZSI6IkNPVklELTE5IiwiYXRjQ29kZSI6IkowN0JYMDMiLCJtZWRpY2luYWxQcm9kdWN0TmFtZSI6IkNPVklELTE5IFZhY2NpbmUgTW9kZXJuYSIsIm1hcmtldGluZ0F1dGhvcml6YXRpb25Ib2xkZXIiOiJNb2Rlcm5hIEJpb3RlY2gifX19LCJuYmYiOjE2NjI1NjE3NjMuNTI5MTYzLCJleHAiOjE2NzgyMDM3NjMuNTI5MTY1fQ.uP0B8KGKzIzpWMrTgobenjKy77F5lV6KK54qOt-a_knsVlpXCUVnU_b9k7DHNoOKbEWOW13ZJfFo9xHaDtbxCw",
+        "w3c_payload": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vaccination/v1"
+          ],
+          "type": [
+            "VerifiableCredential",
+            "VaccinationCertificate"
+          ],
+          "name": "COVID-19 Vaccination Certificate",
+          "description": "COVID-19 Vaccination Certificate",
+          "credentialSubject": {
+            "type": "VaccinationEvent",
+            "batchNumber": "12312312",
+            "administeringCentre": "MoH",
+            "healthProfessional": "MoH",
+            "countryOfVaccination": "DE",
+            "recipient": {
+              "type": "VaccineRecipient",
+              "givenName": "Alice",
+              "familyName": "Papancheva",
+              "gender": "Female",
+              "birthDate": "1997-01-01"
+            },
+            "vaccine": {
+              "type": "Vaccine",
+              "disease": "COVID-19",
+              "atcCode": "J07BX03",
+              "medicinalProductName": "COVID-19 Vaccine Moderna",
+              "marketingAuthorizationHolder": "Moderna Biotech"
+            },
+            "id": "did:web:papanchev.solidweb.org:dids:alice"
+          },
+          "expirationDate": "2023-03-07T16:42:43.529165",
+          "issuer": "did:web:papanchev.solidweb.org:dids:vaccination-issuer",
+          "issuanceDate": "2022-09-07T16:42:43.529163",
+          "id": 44444444,
+          "proof": {
+            "type": "JwtProof2020",
+            "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6cGFwYW5jaGV2LnNvbGlkd2ViLm9yZzpkaWRzOnZhY2NpbmF0aW9uLWlzc3VlciNjb250cm9sbGVyIn0.eyJpc3MiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczp2YWNjaW5hdGlvbi1pc3N1ZXIiLCJzdWIiOiJkaWQ6d2ViOnBhcGFuY2hldi5zb2xpZHdlYi5vcmc6ZGlkczphbGljZSIsImp0aSI6NDQ0NDQ0NDQsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy92YWNjaW5hdGlvbi92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmFjY2luYXRpb25DZXJ0aWZpY2F0ZSJdLCJuYW1lIjoiQ09WSUQtMTkgVmFjY2luYXRpb24gQ2VydGlmaWNhdGUiLCJkZXNjcmlwdGlvbiI6IkNPVklELTE5IFZhY2NpbmF0aW9uIENlcnRpZmljYXRlIiwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlZhY2NpbmF0aW9uRXZlbnQiLCJiYXRjaE51bWJlciI6IjEyMzEyMzEyIiwiYWRtaW5pc3RlcmluZ0NlbnRyZSI6Ik1vSCIsImhlYWx0aFByb2Zlc3Npb25hbCI6Ik1vSCIsImNvdW50cnlPZlZhY2NpbmF0aW9uIjoiREUiLCJyZWNpcGllbnQiOnsidHlwZSI6IlZhY2NpbmVSZWNpcGllbnQiLCJnaXZlbk5hbWUiOiJBbGljZSIsImZhbWlseU5hbWUiOiJQYXBhbmNoZXZhIiwiZ2VuZGVyIjoiRmVtYWxlIiwiYmlydGhEYXRlIjoiMTk5Ny0wMS0wMSJ9LCJ2YWNjaW5lIjp7InR5cGUiOiJWYWNjaW5lIiwiZGlzZWFzZSI6IkNPVklELTE5IiwiYXRjQ29kZSI6IkowN0JYMDMiLCJtZWRpY2luYWxQcm9kdWN0TmFtZSI6IkNPVklELTE5IFZhY2NpbmUgTW9kZXJuYSIsIm1hcmtldGluZ0F1dGhvcml6YXRpb25Ib2xkZXIiOiJNb2Rlcm5hIEJpb3RlY2gifX19LCJuYmYiOjE2NjI1NjE3NjMuNTI5MTYzLCJleHAiOjE2NzgyMDM3NjMuNTI5MTY1fQ.uP0B8KGKzIzpWMrTgobenjKy77F5lV6KK54qOt-a_knsVlpXCUVnU_b9k7DHNoOKbEWOW13ZJfFo9xHaDtbxCw"
           }
         }
       }
