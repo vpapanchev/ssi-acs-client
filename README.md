@@ -45,3 +45,7 @@ Multiple automated scripts are provided which can be used to send a single reque
 3. Configure the URL and Peer-DID of the ACS (and other constants if needed) in the automated script you wish to execute.
 4. Execute the selected automated script, for example\
 `./scripts/send_request.sh`
+
+## Project status
+
+The project was created as a prototype used for evaluating purposes and might not be actively supported in the future.
