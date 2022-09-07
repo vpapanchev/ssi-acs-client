@@ -19,6 +19,8 @@ def initialize_ssi_client(server_url, server_peer_did):
   h1_wallet = utils.read_holder_wallet("1")
   h1_credentials = []
   for credential_infos in h1_wallet['credentials']:
+    if credential_infos['name'] == "Driving Licence Credential":
+      continue
     h1_credentials.append({
       'name': credential_infos['name'],
       'jwt': credential_infos['jwt'],
@@ -29,7 +31,21 @@ def initialize_ssi_client(server_url, server_peer_did):
   h2_wallet = utils.read_holder_wallet("2")
   h2_credentials = []
   for credential_infos in h2_wallet['credentials']:
+    if credential_infos['name'] == "Driving Licence Credential":
+      continue
     h2_credentials.append({
+      'name': credential_infos['name'],
+      'jwt': credential_infos['jwt'],
+      'graph': rdf_utils.parse_ld_credential_dict(credential_infos['w3c_payload'])
+    })
+
+  # Load Credentials
+  h3_wallet = utils.read_holder_wallet("3")
+  h3_credentials = []
+  for credential_infos in h3_wallet['credentials']:
+    if credential_infos['name'] == "Driving Licence Credential":
+      continue
+    h3_credentials.append({
       'name': credential_infos['name'],
       'jwt': credential_infos['jwt'],
       'graph': rdf_utils.parse_ld_credential_dict(credential_infos['w3c_payload'])
@@ -47,6 +63,10 @@ def initialize_ssi_client(server_url, server_peer_did):
       '2': {
         'wallet': h2_wallet,
         'credentials': h2_credentials
+      },
+      '3': {
+        'wallet': h3_wallet,
+        'credentials': h3_credentials
       }
     }
   }
