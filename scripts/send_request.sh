@@ -23,11 +23,11 @@ echo "Woke up"
 
 start_time=$(date +%s.%N)
 
-curl -s -X GET "http://localhost:6001/ssi/resources/?resource_url=${r1}&holder_id=1" > /dev/null
+curl -s -X GET "http://localhost:6001/ssi/resources/?resource_url=${r1}&holder_id=3" > /dev/null
 
 end_time=$(date +%s.%N)
 diff=$(echo "$end_time - $start_time" | bc)
-echo "Elapsed time: $diff_global"
+echo "Elapsed time: $diff"
 
 # Do not forget to kill the SSI Client API process
 kill $API_PID
